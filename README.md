@@ -1,29 +1,53 @@
-# README #
+# Art Waves
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Developed a responsive e-commerce platform for "Art Waves," a digital art marketplace, using ReactJS. The website allows artists to showcase and sell their digital artwork, while customers can browse, purchase, and securely checkout.
 
-### What is this repository for? ###
+## Tech Stack
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+- Frontend: React.js, HTML, CSS
+- Backend: MockBee
+- Payment Integration: Razorpay
+- Deployment: Netlify
+- Other Libraries and Tools: React Router, Axios, JWT, etc.
 
-### How do I get set up? ###
+## Features
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+- Authentication
+  - Login
+  - Logout
+  - Signup
+- Product Listing
+- Filter Products by
+  - Category
+  - Discount
+  - Price
+  - Rating
+- Cart Management
+- Wishlist Management
+- Search by
+  - Product Name
+  - Category
+- Address Management
+- Single Product Page
+- Loading & Alerts
+- User Profile Page
+- Checkout
+- Order Summary
+- Order History
+- Apply Coupons
+- Payment Integration
+- Responsive
 
-### Contribution guidelines ###
+## Run Locally
 
-* Writing tests
-* Code review
-* Other guidelines
+Install dependencies
 
-### Who do I talk to? ###
+```bash
+  npm install
+```
 
-* Repo owner or admin
-* Other community or team contact
+Start the server
+
+```bash
+  npm run start
+```
