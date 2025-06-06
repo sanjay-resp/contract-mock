@@ -1,0 +1,53 @@
+.transfer-input-container {
+  margin-top: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.transfer-input {
+  padding: 0.4rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.95em;
+  width: 100%;
+}
+
+.submit-transfer-btn {
+  font-weight: bold;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-transfer-btn:hover {
+  background-color: black;
+}
+
+.product-card-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  z-index: 5;
+}
+
+.cart-btn {
+  font-weight: 800;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.05em;
+  padding: 0.6rem;
+  color: white;
+  background-color: var(--primary-color);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-btn:hover {
+  background-color: black;
+}

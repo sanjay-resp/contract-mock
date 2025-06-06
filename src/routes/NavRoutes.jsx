@@ -15,6 +15,7 @@ import { Profile } from "../pages/UserProfile/Profile/Profile";
 import { Addresses } from "../pages/UserProfile/Addresses/Addresses";
 import { Orders } from "../pages/UserProfile/Orders/Orders";
 import { PageNotFound } from "../pages/PageNotFound/PageNotFound";
+import { TokenListing } from "../pages/TokenDetail/TokenMock";
 
 export const NavRoutes = () => {
   return (
@@ -42,6 +43,7 @@ export const NavRoutes = () => {
       <Route path="/product-listing" element={<ProductListing />} />
       <Route path="/signup" element={<Signup />} />
       <Route path="/product-details/:productId" element={<ProductDetails />} />
+      <Route path="/token" element={<TokenListing />} />
       <Route
         path="/checkout"
         element={

@@ -77,6 +77,14 @@ export const Header = () => {
         >
           Explore
         </NavLink>
+
+        <NavLink
+          onClick={() => setShowHamburger(true)}
+          style={getActiveStyle}
+          to="/token">
+          Token
+        </NavLink>
+
         <NavLink
           onClick={() => setShowHamburger(true)}
           style={getActiveStyle}
